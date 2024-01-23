@@ -1,15 +1,15 @@
-# bun-template
+# Bun Template
 
-To install dependencies:
+## Included things
 
-```bash
-bun install
-```
+- Bun (runtime)
+- Biome (formatter & linter)
+- @t3oss/env (type-safe env variables)
+- lefthook (Git Hooks)
+- VSCode configs (format on save, debug config, recommended extensions)
 
-To run:
+## Usage
 
-```bash
-bun run src/index.ts
-```
-
-This project was created using `bun init` in bun v1.0.11. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+1. Fork/use template
+2. `bun install` install dependencies
+3. `bunx lefthook install` register git hooks
