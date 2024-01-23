@@ -1,0 +1,16 @@
+{
+  "name": "bun-template",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@biomejs/biome": "1.5.3",
+    "bun-types": "latest",
+    "lefthook": "^1.6.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "zod": "^3.22.4"
+  }
+}
