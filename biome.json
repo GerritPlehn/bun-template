@@ -11,5 +11,9 @@
 	},
 	"formatter": {
 		"formatWithErrors": true
+	},
+	"vcs": {
+		"enabled": true,
+		"clientKind": "git"
 	}
 }
