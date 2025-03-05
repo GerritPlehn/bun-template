@@ -15,7 +15,7 @@
 2. `bun install` install dependencies
 3. `bunx lefthook install` register git hooks
 
-Or using ´bun create`
+Or using `bun create`
 ```bash
 bun create GerritPlehn/bun-template my-project
 ```
