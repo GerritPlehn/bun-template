@@ -18,5 +18,6 @@
 		"source.organizeImports.biome": "explicit",
 		"quickfix.biome": "explicit"
 	},
-	"editor.formatOnSave": true
+	"editor.formatOnSave": true,
+	"files.insertFinalNewline": true
 }
