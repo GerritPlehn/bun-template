@@ -5,13 +5,14 @@
 	"devDependencies": {
 		"@biomejs/biome": "2.1.2",
 		"@types/bun": "latest",
-		"lefthook": "^1.6.18"
+		"lefthook": "^1.12.2"
 	},
 	"peerDependencies": {
 		"typescript": "^5.8.2"
 	},
 	"scripts": {
 		"check": "biome check --write .",
+		"compile": "tsc",
 		"dev": "bun src/index.ts"
 	},
 	"dependencies": {
